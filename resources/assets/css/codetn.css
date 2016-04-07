@@ -1,0 +1,46 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 62px;
+}
+
+.navbar-brand img {
+  height: 50px;
+  margin-top: -15px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 62px;
+  background-color: #f5f5f5;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.container .tall {
+  margin: 10px 0;
+}
+
+.footer > .container {
+  text-align: center;
+}
+
+.footer ul {
+  display: inline-block;
+  list-style: outside none none;
+  margin: auto;
+}
+
+.footer li {
+  float: left;
+  padding: 0px 20px 0px;
+}
