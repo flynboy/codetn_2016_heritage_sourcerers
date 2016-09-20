@@ -39,7 +39,7 @@ After creating your workspace, run each of these command (ONLY run when FIRST cr
   5. Use output from Root User/Database Name in next steps
   6. cp .env.example .env
   7. Edit .env, update the following
-  - APP_KEY to random 20 character string
+  - APP_KEY to random 32 character string (ie: ujra6NCIvecaVVhgtSlNLrHvHFaWZXVq)
   - DB_DATABASE to Database Name from above
   - DB_USERNAME to Root User from above
   - DB_PASSWORD to an empty value (no password)
