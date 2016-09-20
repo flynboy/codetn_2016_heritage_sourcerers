@@ -39,13 +39,13 @@ After creating your workspace, run each of these command (ONLY run when FIRST cr
   5. Use output from Root User/Database Name in next steps
   6. cp .env.example .env
   7. Edit .env, update the following
-    7a. APP_KEY to random 20 character string
-    7b. DB_DATABASE to Database Name from above
-    7c. DB_USERNAME to Root User from above
-    7d. DB_PASSWORD to an empty value (no password)
+  7a. APP_KEY to random 20 character string
+  7b. DB_DATABASE to Database Name from above
+  7c. DB_USERNAME to Root User from above
+  7d. DB_PASSWORD to an empty value (no password)
   8. php artisan migrate:install
   9. sudo vim /etc/apache2/sites-enabled/001-cloud9.conf
-    9a. Change DocumentRoot to /home/ubuntu/workspace/public
+  9a. Change DocumentRoot to /home/ubuntu/workspace/public
   10. npm install --global gulp-cli
   11. npm install
   12. gulp
