@@ -40,8 +40,8 @@ After creating your workspace, run each of these command (ONLY run when FIRST cr
   6. cp .env.example .env
   7. Edit .env, update the following
   - APP_KEY to random 32 character string (ie: ujra6NCIvecaVVhgtSlNLrHvHFaWZXVq)
-  - DB_DATABASE to Database Name from above
-  - DB_USERNAME to Root User from above
+  - DB_DATABASE to Database Name from steps 4-5 above
+  - DB_USERNAME to Root User from steps 4-5 above
   - DB_PASSWORD to an empty value (no password)
   8. php artisan migrate:install
   9. sudo vim /etc/apache2/sites-enabled/001-cloud9.conf
