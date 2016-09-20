@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="{{ url('/') }}">
+      <a class="navbar-brand" href="{{ secure_url('/') }}">
         <img alt="CodeTN" src="{{ secure_asset('images/CodeTN_trans.png') }}">
       </a>
     </div>
@@ -45,12 +45,12 @@
               </a>
 
               <ul class="dropdown-menu" role="menu">
-                  <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
+                  <li><a href="{{ secure_url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
               </ul>
           </li>
         @else
-          <a href="{{ url('/login') }}" class="btn btn-warning navbar-btn"><i class="fa fa-btn fa-sign-in"></i> Login</a>
-          <a href="{{ url('/register') }}" class="btn btn-default navbar-btn"><i class="fa fa-btn fa-user"></i> Register</a>
+          <a href="{{ secure_url('/login') }}" class="btn btn-warning navbar-btn"><i class="fa fa-btn fa-sign-in"></i> Login</a>
+          <a href="{{ secure_url('/register') }}" class="btn btn-default navbar-btn"><i class="fa fa-btn fa-user"></i> Register</a>
         @endif
       </ul>
     </div><!-- /.navbar-collapse -->
