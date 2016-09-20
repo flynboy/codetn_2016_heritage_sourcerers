@@ -28,9 +28,7 @@ and to c9 and [signup](https://c9.io/signup).
 
 When creating your workspace, chose the PHP Woorkspace and use the GitHub URL:
 
-     ```
      git@github.com:CodeTN/hello_codetn_laravel.git
-     ```
 
 After creating your workspace, run each of these command (ONLY run when FIRST creating your workspace):
 
