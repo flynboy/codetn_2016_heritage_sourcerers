@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="{{ url('/') }}">
-        <img alt="CodeTN" src="{{ asset('images/CodeTN_trans.png') }}">
+        <img alt="CodeTN" src="{{ secure_asset('images/CodeTN_trans.png') }}">
       </a>
     </div>
 
