@@ -1,2 +1,37 @@
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
-
+.menu {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: darken($header-bg, 5);
+/*    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;*/
+    
+    width: $menu-width;
+    
+    @include transform(translateX($menu-width * -1));
+    a {
+      display: block;
+      height: 40px;
+      
+      text-align: center;
+      line-height: 40px;
+      
+      border-bottom: 1px solid $header-bg;
+    }
+  }
+  
+  .with--sidebar {
+    .site-pusher {
+      @include transform(translateX($menu-width));
+    }
+    .site-cache {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0,0,0,0.6);
+    }
+  }

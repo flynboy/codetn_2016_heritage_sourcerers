@@ -1,0 +1,56 @@
+Go Go Mountaineer is a program which incorporates fitness in our school. It encourages taking longer routes to class, and this benefits declogging the hallways as well. 
+Because Go Go Mountaineer is prioritized between classes and finding your way throughout the school, our app is styled with mobile usage set in mind. 
+We encourage users to tryout not only the web browser based version, but also the mobile based. 
+
+How to open the program:
+
+1. Open up the Cloud 9 workspace.
+2. Hit run at the top of the menu on the Cloud 9 workspace.
+3. Hit Preview and a dropdown menu appears, hit Preview Running Application or go directly to the page via URL (http://sourcerers-flynboy.c9users.io/).
+
+How to login:
+
+1. Once you reach the landing page you will see two buttons: a login and a register button.
+ a. Make sure cookies are disabled on your browser. If not, some button features may not work correctly.
+    - If diabling cookies is needed, access the popup icons that are located to the left of the URL bar. 
+    - You should see a popup that has several icons, one of which is Cookies. 
+    - Under the Cookies icon there should be a blue line that says 2 in use. 
+    - Tap on that line and it will bring up a new popup, click on the button that says Remove and reload the page.
+ b. If you have an account tap the login button, and it will take you to the login page.
+ c. If you don't have an account, tap the register button and create one.
+
+How to use our Application:
+
+1. After accessing your account, you will be redirected to the GoTime! page.
+   - Select where in the school you are beginning and where you want to go. Tap GO!
+
+2. When you tap GO!, you will be taken to a map of all the routes availiable to you, if you go down to the bottom of the page, you will have three options:
+Shortest Route, Standard Route, and Longest Route. These buttons correspond with the color of the routes shown on the map.
+
+3. Once you select your route, you will be taken to the page for the route you choose. 
+    - There is a specific map on this page. At the bottom you will see three options.
+
+Submit 
+If the longest route is chosen, you will recieve a GoCoin! 
+   - The submit button functions as a Check In for our server and gives a coin to your account.
+     This will also direct you from your map and onto our congratulations page.
+If the shortest or standard route is taken, you will reach a page corresponding to what location of the school you are in.
+
+
+All routes
+The All routes button will redirect you back to the previous and will display all routes for you. You have the option of choosing a different route.
+
+Directions
+The Directions button will take you to a page with directions for navigating to where you want to go. 
+On this page there are also three buttons at the bottom: Check In, All routes and Map. 
+Check in and All Routes do the same as previously stated, but the new Map button will take you back to the map you were viewing before.
+
+At the top of the page there are three different tabs you can choose from: 
+1. To the far left you will see our Sourcerers team logo. This redirects you to the Landing Page. It also logs you out from your account. 
+2. Go Time! will redirect you to the starting point of the app. From here you can choose new directions and maps. 
+3. My Progress will show you how many Go Coins you have collected on your adventures. This page also show what you can trade in your Go Coins for as rewards for taking longer walks to class. 
+4. To the far right you will see your account name. This gives you the option to log out from your account. 
+
+
+
+

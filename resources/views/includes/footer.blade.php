@@ -1,10 +1,11 @@
 <footer class="footer">
   <div class="container">
     <ul>
-      <li class="text-muted"><a href="http://codetn.org">CodeTN.org (bam)</a></li>
-      <li class="text-muted tall"><a href="maps:ll=35.961254,-83.915499">912 S Gay St,<br />Knoxville, TN 37902</a></li>
-      <li class="text-muted"><a href="tel:18652154501">(865) 215-4501</a></li>
-      <li class="text-muted"><a href="mailto:info@codetn.org">info@codetn.org</a></li>
+      <li class="text-muted"><a href="http://www.blountk12.org/heritage-hs/">HHS Website</a></li>
+      <li class="text-muted tall">3741 East Lamar Alexander Parkway
+        <br />Maryville, Tennessee 37804</li>
+      <li class="text-muted"><a href="tel:18659848110">(865) 984-8110</a></li>
+      <li class="text-muted"><a href="mailto:sourcerers.codetn@gmail.com">sourcerers.codetn@gmail.com</a></li>
     </ul>
   </div>
 </footer>
